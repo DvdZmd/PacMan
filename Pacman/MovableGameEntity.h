@@ -1,0 +1,50 @@
+#ifndef MOVABLEGAMEENTITY_H
+#define MOVABLEGAMEENTITY_H
+
+#include "GameEntity.h"
+#include "Vector2f.h"
+
+class MovableGameEntity : public GameEntity
+{
+public:
+	enum MovementDirection : int
+	{
+		Up = 0,
+		Down = 1,
+		Left = 2,
+		Right = 3,
+		DirectionCount = 4
+	};
+
+
+	MovableGameEntity(const Vector2f& aPosition, Sprite* entitySprite);
+	~MovableGameEntity(void);
+
+	void Respawn(const Vector2f& aPosition);
+
+	void SetNextTile(int anX, int anY);
+	int GetCurrentTileX() const { return myCurrentTileX; }
+	int GetCurrentTileY() const { return myCurrentTileY; }
+	int GetPreviousTileX() const { return myPreviousTileX; }
+	int GetPreviousTileY() const { return myPreviousTileY; }
+
+	void SetSpeed(float _speed) { speed = _speed; };
+
+	bool IsAtDestination();
+
+protected:
+
+	float speed;
+	float myBehaviourEmpleacedTime;
+
+	int myPreviousTileX;
+	int myPreviousTileY;
+
+	int myCurrentTileX;
+	int myCurrentTileY;
+
+	int myNextTileX;
+	int myNextTileY;
+};
+
+#endif // MOVABLEGAMEENTITY_H

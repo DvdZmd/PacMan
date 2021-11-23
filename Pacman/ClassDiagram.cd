@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pacman" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEYAAAAEAIABAgAAIAAQAAIgAgAABERyAAACAAQAAQA=</HashCode>
+      <FileName>Pacman.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEntity" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAAgAAAAAEACAAABIIAgBAABAAAAAAAAA=</HashCode>
+      <FileName>GameEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigDot" Collapsed="true">
+    <Position X="5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAA=</HashCode>
+      <FileName>BigDot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cherry" Collapsed="true">
+    <Position X="7.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cherry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dot" Collapsed="true">
+    <Position X="9.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Dot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StaticGameEntity" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>StaticGameEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avatar" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Avatar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovableGameEntity" Collapsed="true">
+    <Position X="1.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCgACAgAAAABBAAEBQABAAAGQEAAAAAAAEAAAA=</HashCode>
+      <FileName>MovableGameEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IChaseBehaviour" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ChaseBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChaseAggresive" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ChaseBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChaseAmbush" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ChaseBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChasePatrol" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAgAAAggAAA=</HashCode>
+      <FileName>ChaseBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChaseRandom" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ChaseBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IFrightenedBehaviour" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrightenedBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrigtenedWander" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrightenedBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ghost" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABACEAAAAAgApAAECgAkAAQACAAAAgAAGAABCAAA=</HashCode>
+      <FileName>Ghost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IScatterBehaviour" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScatterBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScatterUpLeft" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScatterBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScatterUpRight" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScatterBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScatterDownLeft" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScatterBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScatterDownRight" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScatterBehaviour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathmapTile" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAQAAAAAIAAABAAAAAAAAQAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>PathmapTile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gyAAAAgEAhAAAgIAAIAkAAAAAACCDEAIACAiCAAAAAA=</HashCode>
+      <FileName>World.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Drawer" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEAAAgACAAAABAAEAABAAEEAABACAAAQAIA=</HashCode>
+      <FileName>Drawer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgUAAAgAAAAAAAAAACAAAAEAQAAAAAQAAAAI=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteFont" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAACAAkAAAIAABAAAAQAAAEAIACgAAQAAABA=</HashCode>
+      <FileName>SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2f" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEBAAAQBAAAAAAAAAAAAgQAAAAAA=</HashCode>
+      <FileName>Vector2f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
